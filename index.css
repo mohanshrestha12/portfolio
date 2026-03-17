@@ -87,3 +87,14 @@ header {
 .btn-resume:hover {
     background-color: #333;
 }
+
+.social-icons a {
+    color: #333;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #4CAF50;
+}
