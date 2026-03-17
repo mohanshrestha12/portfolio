@@ -31,3 +31,59 @@ nav ul li a {
 nav ul li a:hover {
     color: #4CAF50;
 }
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.name {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    max-width: 300px;
+    margin: 0 auto 30px auto;
+}
+
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.btn-contact, .btn-resume {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-contact {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-contact:hover {
+    background-color: #45a049;
+}
+
+.btn-resume {
+    background-color: #555;
+    color: white;
+}
+
+.btn-resume:hover {
+    background-color: #333;
+}
