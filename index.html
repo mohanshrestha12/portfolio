@@ -1,52 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Mohan Shrestha Portfolio</title>
+    <title>Mohan Shrestha Portfolio</title>
 
-<link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
 <body>
 
-    <nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="project.html">Projects</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li><a href="videoDemo.html">Demo</a></li>
-<li><a href="report.html">Report</a></li>
-</ul>
-</nav>
+     <input type="checkbox" id="resume-toggle" hidden>
+    
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="videoDemo.html">Demo</a></li>
+            <li><a href="report.html">Report</a></li>
+        </ul>
+    </nav>
 
-<header>
-<div class="container">
-<h1 class="name">Mohan Shrestha</h1>
-<h2 class="subtitle">Bachelor Student in Web Development & Cybersecurity</h2>
+    <header>
+        <div class="container">
+            <h1 class="name">Mohan Shrestha</h1>
+            <h2 class="subtitle">Bachelor Student in Web Development & Cybersecurity</h2>
 
-<p class="description">
-I design and develop modern websites and secure web applications that help businesses grow online.
-</p>
+            <p class="description">
+                I design and develop modern websites and secure web applications that help businesses grow online.
+            </p>
 
-<div class="buttons">
-<a href="contact.html" class="btn-contact">Get in Touch</a>
-<a href="#" class="btn-resume">My Resume</a>
-</div>
+            <div class="buttons">
+                <a href="contact.html" class="btn-contact">Get in Touch</a>
+                
+                <label for="resume-toggle" class="btn-resume">My Resume</label>
+            </div>
 
-<div class="social-icons">
-<a href="#"><i class="fab fa-github"></i></a>
-<a href="#"><i class="fab fa-linkedin"></i></a>
-<a href="#"><i class="fab fa-facebook"></i></a>
-</div>
-</div>
-</header>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="resume-modal">
+        <div class="resume-box">
 
+            <label for="resume-toggle" class="close-btn">&times;</label>
+
+            <h2 class="resume-title">My Resume</h2>
+
+            <div class="resume-block">
+                <h3>Personal Information</h3>
+                <p><strong>Name:</strong> Mohan Shrestha</p>
+                <p><strong>Age:</strong> 19</p>
+                <p><strong>Country:</strong> Nepal</p>
+                <p><strong>University:</strong> University of Northampton</p>
+                <p><strong>Course:</strong> Bachelor's in Web Development and Cyber Security</p>
+            </div>
+
+            <div class="resume-block">
+                <h3>Profile</h3>
+                <p>
+                    I am a motivated bachelor student studying Web Development and Cyber Security at the University of
+                    Northampton.
+                    I am passionate about creating modern, responsive websites and learning how to build secure web
+                    applications.
+                    I enjoy improving my coding skills and exploring new technologies.
+                </p>
+            </div>
+
+            <div class="resume-block">
+                <h3>Education</h3>
+                <p><strong>University of Northampton</strong></p>
+                <p>Bachelor's in Web Development and Cyber Security</p>
+                <p>Currently Studying</p>
+            </div>
+
+            <div class="resume-block">
+                <h3>Skills</h3>
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>Responsive Web Design</span>
+                    <span>Cyber Security Basics</span>
+                    <span>Problem Solving</span>
+                    <span>Teamwork</span>
+                    <span>Communication</span>
+                </div>
+            </div>
+
+            <div class="resume-block">
+                <h3>Projects</h3>
+                <p><strong>Portfolio Website</strong> - Designed and developed a personal portfolio website to present
+                    my skills, projects, and contact details.</p>
+                <p><strong>Book Management System</strong> - Created a system for managing books, customers, and orders
+                    using programming logic and GUI.</p>
+                <p><strong>Appointment Booking System</strong> - Developed a booking system with organized structure and
+                    user-friendly features.</p>
+            </div>
+
+            <div class="resume-block">
+                <h3>Languages</h3>
+                <p>English</p>
+                <p>Nepali</p>
+            </div>
+
+            <div class="resume-block">
+                <h3>Career Objective</h3>
+                <p>
+                    My goal is to become a skilled web developer and cyber security professional by gaining practical
+                    experience,
+                    improving my technical knowledge, and building secure, useful digital solutions.
+                </p>
+            </div>
+
+        </div>
+    </div>
 </body>
+
 </html>
