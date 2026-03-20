@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 230, 235);
+    color: #222;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+.report-container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+}
+
+
+.report-section {
+    margin-bottom: 50px;
+}
+
+.report-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.report-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.report-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.report-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+    color: #333;
+}
+
+.image-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 900px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.validation-grid {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.validation-item {
+    text-align: center;
+}
+
+.validation-item img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    border: 1px solid #999;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.validation-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.video-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.video-link:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 1000px) {
+    .validation-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .report-container {
+        width: 92%;
+        padding: 25px;
+    }
+
+    .report-section h1 {
+        font-size: 32px;
+    }
+
+    .report-section h2 {
+        font-size: 28px;
+    }
+
+    .report-section p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    .validation-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .report-section h1 {
+        font-size: 28px;
+    }
+
+    .report-section h2 {
+        font-size: 24px;
+    }
+
+    .report-section p {
+        font-size: 15px;
+    }
+}
