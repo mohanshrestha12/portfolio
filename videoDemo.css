@@ -32,3 +32,31 @@ nav ul li a {
 nav ul li a:hover {
     color: #4CAF50;
 }
+
+.video-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.video-section h1 {
+    margin-bottom: 20px;
+}
+
+video {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.video-link a {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #1c1e1c;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
